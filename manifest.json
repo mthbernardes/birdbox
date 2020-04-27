@@ -1,0 +1,12 @@
+{
+    "name": "BirdBox",
+    "version": "1.0",
+    "description": "Block content from twitter",
+    "devtools_page": "devtools.html",
+    "permissions": [ "webRequest", "webRequestBlocking", "webNavigation", "https://*/*"],
+        "background": {
+            "scripts": ["main.js"],
+            "persistent": true
+        },
+        "manifest_version": 2
+}
